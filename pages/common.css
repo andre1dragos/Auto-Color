@@ -26,10 +26,9 @@ html{
     margin-left: 5rem;
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
 }
 .header-contact-box a{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #2c3e50;
     line-height: 4vh;
     margin: 0 2rem 0 0;
@@ -37,7 +36,7 @@ html{
     border-right: 1px solid #2c3e50;
 }
 .header-contact-box p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #2c3e50;
     line-height: 4vh;
 }
@@ -230,7 +229,7 @@ nav ul li a:hover{
     .menu-tab nav ul li a{
         font-size: 1.8rem;
         letter-spacing: .2rem;
-        text-shadow: 1px 1px 2px #bdc3c7;
+        text-shadow: 1px 1px 2px black;
     }
 }
 
