@@ -23,7 +23,7 @@ html{
 }
 .header-contact-box{
     width: 50%;
-    margin: 0 5%;
+    margin-left: 5rem;
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
@@ -32,8 +32,8 @@ html{
     font-size: 1.8rem;
     color: #2c3e50;
     line-height: 4vh;
-    margin: 0 2rem;
-    padding: 0 2rem;
+    margin: 0 2rem 0 0;
+    padding: 0 2rem 0 0;
     border-right: 1px solid #2c3e50;
 }
 .header-contact-box p{
@@ -92,7 +92,7 @@ html{
 }
 nav{
     width: 80%;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,12 +150,11 @@ nav ul li a:hover{
     }
     .logo{
         width: 100%;
-        height: 15vh;
         position: absolute;
     }
     .logo img{
         padding: 1rem;
-        height: 15vh;
+        height: 18vh;
     }
     .menu-tab{
         width: 100%;
@@ -227,6 +226,11 @@ nav ul li a:hover{
     }
     .menu-tab nav ul li{
         margin: 5vh 0;
+    }
+    .menu-tab nav ul li a{
+        font-size: 1.8rem;
+        letter-spacing: .2rem;
+        text-shadow: 1px 1px 2px #bdc3c7;
     }
 }
 
